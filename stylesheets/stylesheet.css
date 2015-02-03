@@ -301,6 +301,7 @@ Full-Width Styles
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   width: 75px;
+  margin-left: 100%;
 }
 
 #nav_element_current {
@@ -317,6 +318,7 @@ Full-Width Styles
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   width: 75px;
+  margin-left: 100%;
 }
 
 #header_wrap {
