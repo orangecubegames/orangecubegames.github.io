@@ -55,6 +55,7 @@ body {
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
+  margin: 0px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -287,6 +288,7 @@ Full-Width Styles
 }
 
 #nav_element {
+  float: left;
   display: block;
   position: absolute;
   top:0;
@@ -301,13 +303,14 @@ Full-Width Styles
 }
 
 #nav_element_current {
+  float: left;
   display: block;
   position: absolute;
   top:0;
   left: 10px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
-  color: rgb(120,0,0) ;
+  color: rgb(60,0,0);
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
