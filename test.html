@@ -29,11 +29,11 @@
 			
 			
 			if ( p == true ) {
-				cube.position.x += 0.1;
+				cube.position.x += 0.25;
 				if (cube.position.x > 5) { p = false }
 			} else {
-				cube.position.x -= 0.1;
-				if (cube.position.x < -5) { p = false }
+				cube.position.x -= 0.25;
+				if (cube.position.x < -5) { p = true }
 			}
 		}
 		render();
