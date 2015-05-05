@@ -22,15 +22,18 @@
 		scene.add( cube );
 
 		camera.position.z = 5;
-		
+		var p = true;
 		function render() {
 			requestAnimationFrame( render );
 			renderer.render( scene, camera );
 			
-			if ( cube.position.x < 5 && cube.position.x > 0) {
+			
+			if ( p == true ) {
 				cube.position.x += 0.1;
-			} else if ( cube.position.x > -5 && cube.position.x < 0) {
+				if (cube.position.x > 5) { p = false }
+			} else {
 				cube.position.x -= 0.1;
+				if (cube.position.x < -5) { p = false }
 			}
 		}
 		render();
