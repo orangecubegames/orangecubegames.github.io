@@ -30,9 +30,11 @@
 			
 			if ( p == true ) {
 				cube.position.x += 0.25;
+				cube.material.opacity -= 0.05;
 				if (cube.position.x > 5) { p = false }
 			} else {
 				cube.position.x -= 0.25;
+				cube.material.opactiy += 0.05;
 				if (cube.position.x < -5) { p = true }
 			}
 		}
